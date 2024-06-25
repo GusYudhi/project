@@ -1,0 +1,26 @@
+train: train/
+val: test/
+nc: 21
+names: [
+    "larangan-berhenti", # 0
+    "larangan-masuk-bagi-kendaraan-bermotor-dan-tidak-bermotor", # 1
+    "larangan-parkir", # 2
+    "lampu-hijau", # 3
+    "lampu-kuning", # 4
+    "lampu-merah", # 5
+    "larangan-belok-kanan", # 6
+    "larangan-belok-kiri", # 7
+    "larangan-berjalan-terus-wajib-berhenti-sesaat", # 8
+    "larangan-memutar-balik", # 9
+    "peringatan-alat-pemberi-isyarat-lalu-lintas", # 10
+    "peringatan-banyak-pejalan-kaki-menggunakan-zebra-cross", # 11
+    "peringatan-pintu-perlintasan-kereta-api", # 12
+    "peringatan-simpang-tiga-sisi-kiri", # 13
+    "peringatan-penegasan-rambu-tambahan", # 14
+    "perintah-masuk-jalur-kiri", # 15
+    "perintah-pilihan-memasuki-salah-satu-jalur", # 16
+    "petunjuk-area-parkir", # 17
+    "petunjuk-lokasi-pemberhentian-bus", # 18
+    "petunjuk-lokasi-putar-balik", # 19
+    "petunjuk-penyeberangan-pejalan-kaki", # 20
+  ]
