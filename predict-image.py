@@ -5,15 +5,21 @@ import numpy as np
 # Inisialisasi model YOLO
 model = YOLO("runs/detect/train11/weights/best.pt")
 
+device = "cpu"
+
+model.to(device)
+
+print("Model loaded")
+
 # Baca gambar besar
 frame = cv2.imread("C:\\Users\\ASUS\\Downloads\\Cuplikan layar 2024-06-25 155238.png")
 
 # Tentukan ukuran grid dan overlap
-grid_size = 440
-overlap = 220  # 50% overlap
+grid_size = 350
+overlap = 175  # 50% overlap
 
 # Boolean untuk mengaktifkan atau menonaktifkan visualisasi grid
-visualize_grid = False
+visualize_grid = True
 
 # Simpan hasil deteksi dalam list
 detections = []
